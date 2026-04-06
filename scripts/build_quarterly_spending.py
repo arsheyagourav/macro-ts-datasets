@@ -7,11 +7,19 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 file_map = {
     "gdp": "ROUTPUTQvQd.xlsx",
-    "consumption": "RCONQvQd.xlsx",
+    "consumption_total": "RCONQvQd.xlsx",
+    "consumption_nondurables": "RCONNDQvQd.xlsx",
+    "consumption_durables": "RCONDQvQd.xlsx",
+    "consumption_services": "RCONSQvQd.xlsx",
     "business_investment": "rinvbfQvQd.xlsx",
     "residential_investment": "rinvresidQvQd.xlsx",
+    "inventory_change": "rinvchiQvQd.xlsx",
+    "government_total": "RGQvQd.xlsx",
+    "government_federal": "RGFQvQd.xlsx",
+    "government_state_local": "RGSLQvQd.xlsx",
     "net_exports": "RNXQvQd.xlsx",
-    "government_spending": "RGQvQd.xlsx",
+    "exports": "REXQvQd.xlsx",
+    "imports": "RIMPQvQd.xlsx",
 }
 
 def clean_one(var_name: str, filename: str) -> pd.DataFrame:
