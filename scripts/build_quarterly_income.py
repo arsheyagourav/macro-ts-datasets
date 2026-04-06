@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-RAW_DIR = Path("data/raw/philly_fed")
+RAW_DIR = Path("data/raw/philly_fed/income")
 OUT_DIR = Path("data/processed")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -13,6 +13,10 @@ file_map = {
     "PINTI": "pintiQvQd.xlsx",
     "PROPI": "propiQvQd.xlsx",
     "WSD": "wsdQvQd.xlsx",
+    "NPSAV": "npsavQvQd.xlsx",
+    "PTAX": "ptaxQvQd.xlsx",
+    "RATESAV": "ratesavQvQd.xlsx",
+    "TRANR": "tranrQvQd.xlsx",
 }
 
 def clean_one(var_name: str, filename: str) -> pd.DataFrame:
