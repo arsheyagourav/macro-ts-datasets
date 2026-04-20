@@ -208,5 +208,13 @@ __marimo__/
 
 
 
-.DS_Storenotebooks/lightning_logs/
+# mac junk
+.DS_Store
+*.DS_Store
+
+# logs
+notebooks/lightning_logs/
+
+# results (don’t commit large outputs)
+results/
 ~
