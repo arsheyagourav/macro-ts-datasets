@@ -213,6 +213,7 @@ __marimo__/
 *.DS_Store
 
 # logs
+lightning_logs/
 notebooks/lightning_logs/
 
 # results (don’t commit large outputs)
