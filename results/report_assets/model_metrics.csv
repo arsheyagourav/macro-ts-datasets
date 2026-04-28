@@ -1,0 +1,10 @@
+model,group,family,source,mae,mse,has_forecast_path,note
+Holt-Winters,added_models,classical_time_series,scripts/build_report_assets.py,92.71427184186662,12335.93253136971,True,
+VAR(3),added_models,classical_time_series,scripts/build_report_assets.py,96.83154612730625,13285.068544071975,True,
+"ARIMA(2,2,2)",added_models,classical_time_series,scripts/build_report_assets.py,103.21181315172483,16708.524805264653,True,
+N-BEATS,existing_repo,task_specific_neural,notebooks/model_experiments.ipynb,143.48749999999563,24923.27695833177,True,
+TimesFM,existing_repo,foundation,notebooks/timesfm_experiment.ipynb,205.0550000000003,84441.75153333302,True,
+Moirai,existing_repo,foundation,draft report / notebooks/moirai.ipynb,459.09,264565.34,False,"Notebook source exists, but executed forecast outputs were not saved in the repo."
+Chronos,existing_repo,foundation,notebooks/model_experiments.ipynb,506.92333333333227,384871.0126666662,True,
+TTM,existing_repo,foundation,notebooks/ttm_experiment.ipynb,1166.0799999999992,1962902.806033329,True,
+DeepAR,existing_repo,task_specific_neural,notebooks/deepar_experiment.ipynb,2035.7783333333307,7331075.105783333,True,

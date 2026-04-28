@@ -9,6 +9,21 @@ Macro time series datasets organized by category and frequency for forecasting a
 - `data/processed/quarterly_income.csv`
 - `data/processed/quarterly_spending.csv`
 
+## Report assets
+
+To rebuild the consolidated EMPLOY report bundle, run:
+
+```bash
+MPLCONFIGDIR=/tmp/mpl /opt/miniconda3/bin/python scripts/build_report_assets.py
+```
+
+This exports:
+
+- `results/report_assets/model_metrics.csv`
+- `results/report_assets/model_predictions.csv`
+- `results/report_assets/dataset_summary.json`
+- `results/report_assets/figures/*.png`
+
 ## Informer benchmark
 
 This repo now includes an Informer-style rolling forecast benchmark that compares:

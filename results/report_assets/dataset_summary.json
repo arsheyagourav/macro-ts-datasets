@@ -1,0 +1,66 @@
+{
+  "rows": 746,
+  "start": "1964-01-01",
+  "end": "2026-02-01",
+  "target": "EMPLOY",
+  "variables": [
+    "POP",
+    "LFC",
+    "LFPART",
+    "RUC",
+    "EMPLOY",
+    "H",
+    "HG",
+    "HS"
+  ],
+  "train_rows": 596,
+  "test_rows": 12,
+  "train_start": "1964-01-01",
+  "train_end": "2013-08-01",
+  "test_start": "2013-09-01",
+  "test_end": "2014-08-01",
+  "target_min": 57487.0,
+  "target_max": 158558.0,
+  "target_mean": 112424.6166219839,
+  "target_std": 28922.286757603822,
+  "monthly_change_mean": 135.54228187919463,
+  "monthly_change_std": 811.7414812714877,
+  "yearly_change_mean": 1636.2125340599455,
+  "yearly_change_std": 2669.1285549080935,
+  "acf": {
+    "lag_1": 0.9954734000985778,
+    "lag_6": 0.9730380063350027,
+    "lag_12": 0.9457059381203804,
+    "lag_24": 0.8909607246272182
+  },
+  "adf": {
+    "level_stat": -1.1100912855852116,
+    "level_pvalue": 0.7110308850110879,
+    "diff1_stat": -21.573276338246732,
+    "diff1_pvalue": 0.0,
+    "diff12_stat": -5.26632190101714,
+    "diff12_pvalue": 6.427316569942413e-06
+  },
+  "largest_negative_monthly_changes": [
+    {
+      "date": "2020-04-01",
+      "change": -20469.0
+    },
+    {
+      "date": "2020-03-01",
+      "change": -1398.0
+    },
+    {
+      "date": "2009-03-01",
+      "change": -824.0
+    },
+    {
+      "date": "2009-01-01",
+      "change": -768.0
+    },
+    {
+      "date": "2009-02-01",
+      "change": -761.0
+    }
+  ]
+}
